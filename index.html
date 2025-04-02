@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/icon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="images/icon.ico" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William's Website Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="topnav" id="uppage">
+        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="hobbies.html"><i class="fa fa-fw fa-gamepad"></i> Hobbies</a>
+        <a href="food.html"><i class="fa fa-fw fa-cutlery"></i> Food</a>
+        <a href="assessment.html"><i class="fa fa-file"></i> Assessment</a>
+        <a href="more.html"><i class="fa fa-th-list"></i> More</a>
+    </div>
+
+    <div class="titlediv">
+    <h1 class="Title">My       </h1>
+    <h1 class="Title">Website  </h1>
+    <h1 class="Title">Portfolio</h1>
+    <div class="container">
+        <div class="field">
+            <div class="scroll" onclick="scrollDown()">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    </div>
+    <hr>
+    <div id="down" class="titlediv2">
+        <br>
+        <br>
+        <br>
+        <h1 class="Title2">      I</h1>
+        <h1 class="Title2">     Am</h1>
+        <h1 class="Title2">William</h1>
+        <br>
+        <br>
+        <br>
+        </div>
+    <Hr>
+    <div class="titlediv3">
+        <br>
+        <br>
+        <br>
+        <h1 class="Title3">Welcome </h1>
+        <h1 class="Title3">to my</h1>
+        <h1 class="Title3">Website</h1>
+        <br>
+        <br>
+        <br>
+        </div>
+    
+    <div class="bottomnav">
+            <p class="uppagebutton" onclick="scrollUp()">Top</p>
+    </div>
+
+    <script>
+        function scrollDown() {
+            document.getElementById('down').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+    <script>
+        function scrollUp() {
+            document.getElementById('uppage').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+
+</body>
+</html>
